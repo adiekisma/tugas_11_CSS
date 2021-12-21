@@ -1,0 +1,54 @@
+header {
+    background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    color: white;
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    background-color: black;
+  }
+.judul {
+    column-span: all;
+}
+.satu{
+    text-align: justify;
+    column-count: 4;
+    column-width: 300px;
+    column-fill: balance;
+    column-gap: 30px;
+    column-rule: 3px solid black;
+}
+.dua{
+    text-align: justify;
+    column-count: 4;
+    column-width: 300px;
+    column-fill: balance;
+    column-gap: 30px;
+    column-rule: 3px solid black;
+}
+.tiga{
+    text-align: justify;
+    column-count: 4;
+    column-width: 300px;
+    column-fill: balance;
+    column-gap: 30px;
+    column-rule: 3px solid black;
+}
+footer {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
